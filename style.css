@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Nunito|Space+Mono|VT323');
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+.bigtext
+{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.column 
+{
+    float: left;
+    width: ;
+}
+
+a.hidden hover
+{
+	color:white;
+	background-color: white;
+}
+
+ul#navbar li
+{
+    display: inline;
+}
+
+#navbar
+{
+    position: fixed;
+	top: 3px;
+	width: 100%;
+}
+
+body
+{
+    background-color: gainsboro;
+	font-family: 'Nunito', sans-serif;;
+}
+
+#navbar
+{
+    font-size: 200%;
+    overflow: hidden;
+    margin: -3px;
+    border: double 3px goldenrod;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: darkgray;
+}
+
+#navbar a
+{
+    padding: 14px 16px;
+	float:left;
+	width: 11%; /*Works better/worse on different screens*/
+	text-align:center;
+	display:block;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: black;
+    background-color: darkgray;
+}
+
+a:visited
+{
+    color: black;
+}
+
+a:hover
+{
+    color: gainsboro;
+    background-color: darkgoldenrod;
+}
+
+h1
+{
+	font-family: 'VT323', monospace;
+	text-decoration: underline;
+	font-weight: normal;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h2
+{
+	font-family:'Space Mono', monospace;
+	text-decoration: underline;
+    font-size: 200%;
+}
+
+p
+{
+    overflow-x: 50%;
+    overflow-y: auto;
+}
+
+img
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+iframe
+{
+    margin: 50px 0px;
+}
+
+ol
+{
+    padding: 25px;
+    border: 5px solid whitesmoke;
+    background-color: gray;
+}
