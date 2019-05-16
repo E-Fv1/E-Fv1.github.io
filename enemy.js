@@ -1,8 +1,8 @@
 
 function Enemy()
 {
-  this.x = 20
-  this.y = 10
+  this.x = 100
+  this.y = 100
   this.w = 550
   this.h = 200
   this.img =
@@ -10,6 +10,7 @@ loadImage("https://i.imgur.com/ylUDBl6.png")
   this.dir = 0
   this.shoot = false
   this.alive = true
+  this.firearea = 100
 
   this.track = function(){
 

@@ -4,28 +4,36 @@ function Player()
   this.y = 300
   this.w = 250
   this.h = 100
+  this.alive = true
   this.img =
 loadImage("https://media.discordapp.net/attachments/374414128795615232/575900088656986122/TOG-1.png")
   this.dir = 0
   this.shoot = false
 
   this.show = function (){ //display image
+    if(this.alive == true){
     image(this.img, this.x, this.y, this.w, this.h)
+    }
   }
   this.updir = function (){
     this.dir = 1
+    this.shoot = false
   }
   this.rightdir = function(){
     this.dir = 2
+    this.shoot = false
   }
   this.leftdir = function (){
     this.dir = 3
+    this.shoot = false
   }
   this.downdir = function(){
     this.dir = 4
+    this.shoot = false
   }
   this.nomove = function(){
     this.dir = 0
+    this.shoot = false
   }
   this.update = function(){
 
